@@ -97,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
         buttonStop = (Button) findViewById(R.id.btnSop);
         timePicker = (TimePicker) findViewById(R.id.timePicker);
         alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+        textView.setText("");
     }
 
 }
