@@ -55,10 +55,6 @@ public class MainActivity extends AppCompatActivity {
     private PendingIntent pendingIntent;
     private static MainActivity instance;
 
-    public static MainActivity getInstance() {
-        return instance;
-    }
-
     @Override
     protected void onStart() {
         super.onStart();
