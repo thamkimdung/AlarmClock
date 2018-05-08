@@ -40,17 +40,13 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
-    private final String URL_STRING = "https://khoapham.vn";
-    private final String URL_JSON_OBJECT = "https://khoapham.vn/KhoaPhamTraining/json/tien/demo1.json";
-    private final String URL_JSON_ARRAY = "https://khoapham.vn/KhoaPhamTraining/json/tien/demo4.json";
-    private ImageView imageView;
+    
     private final String TAG = "LOGO";
     private android.widget.LinearLayout.LayoutParams layoutParams;
     private ListView listView;
     private ArrayAdapter arrayAdapter;
     private String[] arr = {"abc", "123", "xyz", "android", "git", "func", "botom"};
-    private CustomAdapter customAdapter;
-    private ArrayList<Person> persons = new ArrayList<>();
+    //deleted
 
     private TextView textView;
     private Button buttonStart, buttonStop;
